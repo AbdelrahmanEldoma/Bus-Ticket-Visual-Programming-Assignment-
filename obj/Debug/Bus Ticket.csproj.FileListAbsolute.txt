@@ -1,0 +1,10 @@
+C:\Users\pc\source\repos\Bus Ticket\bin\Debug\Bus Ticket.exe.config
+C:\Users\pc\source\repos\Bus Ticket\bin\Debug\Bus Ticket.exe
+C:\Users\pc\source\repos\Bus Ticket\bin\Debug\Bus Ticket.pdb
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus Ticket.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus_Ticket.Form1.resources
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus_Ticket.Properties.Resources.resources
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus Ticket.csproj.GenerateResource.cache
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus Ticket.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus Ticket.exe
+C:\Users\pc\source\repos\Bus Ticket\obj\Debug\Bus Ticket.pdb
