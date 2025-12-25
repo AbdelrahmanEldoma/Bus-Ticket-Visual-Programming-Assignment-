@@ -63,6 +63,7 @@ namespace Bus_Ticket
             this.btnDelete = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -115,7 +116,7 @@ namespace Bus_Ticket
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Black;
-            this.panel11.Location = new System.Drawing.Point(126, 424);
+            this.panel11.Location = new System.Drawing.Point(142, 424);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(12, 143);
             this.panel11.TabIndex = 9;
@@ -132,7 +133,7 @@ namespace Bus_Ticket
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.Black;
-            this.panel12.Location = new System.Drawing.Point(164, 424);
+            this.panel12.Location = new System.Drawing.Point(178, 424);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(12, 143);
             this.panel12.TabIndex = 8;
@@ -149,7 +150,7 @@ namespace Bus_Ticket
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.Black;
-            this.panel13.Location = new System.Drawing.Point(146, 424);
+            this.panel13.Location = new System.Drawing.Point(160, 424);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(12, 143);
             this.panel13.TabIndex = 7;
@@ -167,15 +168,15 @@ namespace Bus_Ticket
             this.panel8.BackColor = System.Drawing.Color.Black;
             this.panel8.Location = new System.Drawing.Point(52, 424);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(12, 143);
+            this.panel8.Size = new System.Drawing.Size(10, 143);
             this.panel8.TabIndex = 4;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(182, 424);
+            this.panel7.Location = new System.Drawing.Point(207, 424);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(12, 143);
+            this.panel7.Size = new System.Drawing.Size(10, 143);
             this.panel7.TabIndex = 2;
             // 
             // panel10
@@ -183,7 +184,7 @@ namespace Bus_Ticket
             this.panel10.BackColor = System.Drawing.Color.Black;
             this.panel10.Location = new System.Drawing.Point(108, 424);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(12, 143);
+            this.panel10.Size = new System.Drawing.Size(10, 143);
             this.panel10.TabIndex = 3;
             // 
             // panel6
@@ -330,9 +331,9 @@ namespace Bus_Ticket
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.Location = new System.Drawing.Point(208, 368);
+            this.btnSave.Location = new System.Drawing.Point(123, 368);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(114, 36);
+            this.btnSave.Size = new System.Drawing.Size(93, 36);
             this.btnSave.TabIndex = 10;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -341,18 +342,18 @@ namespace Bus_Ticket
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(329, 368);
+            this.btnAdd.Location = new System.Drawing.Point(222, 368);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(114, 36);
+            this.btnAdd.Size = new System.Drawing.Size(123, 36);
             this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "Add";
+            this.btnAdd.Text = "Display";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(452, 368);
+            this.btnUpdate.Location = new System.Drawing.Point(351, 368);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(114, 36);
             this.btnUpdate.TabIndex = 12;
@@ -363,9 +364,9 @@ namespace Bus_Ticket
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(583, 368);
+            this.btnDelete.Location = new System.Drawing.Point(471, 368);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(114, 36);
+            this.btnDelete.Size = new System.Drawing.Size(123, 36);
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
@@ -388,11 +389,23 @@ namespace Bus_Ticket
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 15;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(600, 368);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(93, 36);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Print";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(979, 722);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnDelete);
@@ -410,6 +423,7 @@ namespace Bus_Ticket
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -458,6 +472,7 @@ namespace Bus_Ticket
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
